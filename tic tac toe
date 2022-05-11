@@ -1,0 +1,35 @@
+#tic tac toe
+
+"""
+tic tac toe board
+[
+    [-, -, -],
+    [-, -, -],
+    [-, -, -]   
+]
+
+user_input -> something 1-9
+if they enter anything else: tell them too go again
+check if the user_input is already taken
+add it to the board
+check if user won: checkin rows, columns and diagonals
+toggle between users upon succesful moves
+"""
+
+board = [
+    ["-", "-", "-"],
+    ["-", "-", "-"],
+    ["-", "-", "-"]
+]
+
+def print_board(board):
+    for row in board:
+        for slot in row:
+            print(f"{slot} ", end="")
+        print()
+           
+print_board(board)
+
+while True:
+    user_input = input()
+       
