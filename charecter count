@@ -1,0 +1,7 @@
+cars = input("Enter a 4 car names")
+car1 = ()
+car2 = ()
+car3 = ()
+car4 = ()
+count = len(cars)
+print("the sum of the four cars is ", car1 + car2 + car3 + car4)
