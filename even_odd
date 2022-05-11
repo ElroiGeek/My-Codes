@@ -1,0 +1,7 @@
+ask = int(input("What number are you thinking of"))
+r = ask % 2
+if r == 0:
+    print(ask, " is even")
+else:
+    print(ask, " is odd")
+        
