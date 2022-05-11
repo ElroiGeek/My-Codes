@@ -1,0 +1,10 @@
+a = int(input("Put your first number"))
+print("The number ", a)
+b = int(input("Put your second number"))
+print("The number ", b)
+c = int(input("Put your third number "))
+print("The time you written is ", a, ":", b, ":", c)
+
+
+
+
