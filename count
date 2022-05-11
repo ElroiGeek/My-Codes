@@ -1,0 +1,4 @@
+ask = input("What's on your mind today ")
+words = len(ask.split())
+
+print("The number of words in that sentence is ", words)
