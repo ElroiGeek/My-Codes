@@ -1,0 +1,8 @@
+print('What do you get when you cross a snowman with a vampire?')
+youranswer = input()
+answer = "frostbite"
+
+if youranswer.lower() == answer:
+    print("You got it!!!")
+else:
+    print("Try again")
