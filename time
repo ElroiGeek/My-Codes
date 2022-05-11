@@ -1,0 +1,9 @@
+import time
+import random
+
+wait = [1, 2, 3, 4, 5]
+wait_for_it = random.choice(wait)
+print(wait_for_it)
+
+time.sleep(wait_for_it)
+print('Times up!')
