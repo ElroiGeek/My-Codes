@@ -1,0 +1,23 @@
+user1 = "Employee123"
+
+user2 = "Employee456"
+
+user3 = "Employee789"
+
+message = "Welcome to the company!"
+
+
+print(user1[0])
+
+
+e_num1 = user1[8:11]
+
+e_num2 = user2[8:11]
+
+e_num3 = user3[8:11]
+
+print("Employe numbers are " + e_num1 + ", " + e_num2 + ", and " + e_num3)
+
+
+print(message.upper())
+print(message.replace("the company", "42 Electronics"))
