@@ -1,0 +1,8 @@
+import random
+
+responses = ["Yes", "No", "Ask again"]
+
+while True:
+    ask = input("\n\nAsk a question > ")
+    print (random.choice(responses))
+    
